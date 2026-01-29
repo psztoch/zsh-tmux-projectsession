@@ -15,7 +15,7 @@ if (( $+commands[tmux] )); then
         fi
       fi
     else
-      tmux new-session -A -t $TMUX_PROJECT_SESSION
+      tmux new-session -A -s $TMUX_PROJECT_SESSION
     fi
   }
 
